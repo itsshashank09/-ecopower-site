@@ -1,0 +1,7 @@
+{
+  "name": "Ecopower Electrician Services",
+  "description": "A modern, professional web application for a local electrician business in Bangalore, India, featuring easy booking and a clean user interface.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
