@@ -123,15 +123,14 @@ const BookingForm: React.FC = () => {
             <div className="p-8 lg:p-16 bg-emerald-50">
               <h2 className="text-4xl font-extrabold text-gray-900 mb-6">Schedule Your Visit</h2>
               <p className="text-lg text-gray-600 mb-8">
-                Fill out the form and our team will get back to you within 30 minutes. 
-                For emergencies, please call us directly.
+                Fill out the form to prepare a WhatsApp service request. A visit is confirmed only after the service provider replies.
               </p>
               
               <div className="space-y-6">
                 {[
-                  "Verified Bangalore Experts",
-                  "Flat Rate Pricing",
-                  "100% Satisfaction Guarantee"
+                  "Choose a service",
+                  "Discuss availability and pricing",
+                  "Confirm the visit with the provider"
                 ].map((text, i) => (
                   <motion.div 
                     key={i}

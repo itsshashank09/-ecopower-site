@@ -31,13 +31,13 @@ const Hero: React.FC = () => {
           >
             <motion.div variants={itemVariants} className="inline-flex items-center px-4 py-1.5 rounded-full bg-emerald-100 text-emerald-800 text-sm font-semibold mb-6">
               <span className="flex h-2 w-2 rounded-full bg-emerald-500 mr-2"></span>
-              Trusted Electricians in Bangalore
+              Electrician services in Bangalore
             </motion.div>
             <motion.h1 variants={itemVariants} className="text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-6">
               Reliable <span className="text-emerald-600">Electrician</span> Services
             </motion.h1>
             <motion.p variants={itemVariants} className="text-xl text-gray-600 mb-10 max-w-xl">
-              Professional electrical solutions for your home and office. We serve all areas of Bangalore with certified experts and 24/7 support.
+              Explore wiring, repairs and installations for your home or office. Send a service request to discuss availability and pricing.
             </motion.p>
             
             <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4">

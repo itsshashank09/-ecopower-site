@@ -3,20 +3,20 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const TrustIndicators: React.FC = () => {
-  const stats = [
-    { value: "100%", label: "Certified Professionals" },
-    { value: "30m", label: "Avg Response Time" },
-    { value: "5k+", label: "Homes Served" },
-    { value: "Eco", label: "Energy-Efficient Tech" }
+  const services = [
+    { value: "Wiring", label: "Installation and rewiring" },
+    { value: "Repairs", label: "Electrical maintenance" },
+    { value: "Booking", label: "Request through WhatsApp" },
+    { value: "Local", label: "Services in Bangalore" }
   ];
 
   return (
     <section className="py-20 bg-gray-50 border-t border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
-          {stats.map((stat, i) => (
+          {services.map((service, i) => (
             <motion.div 
-              key={i}
+              key={service.value}
               initial={{ opacity: 0, scale: 0.5 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
@@ -27,8 +27,8 @@ const TrustIndicators: React.FC = () => {
                 stiffness: 100
               }}
             >
-              <div className="text-4xl font-extrabold text-emerald-600 mb-2">{stat.value}</div>
-              <p className="text-gray-600 font-medium">{stat.label}</p>
+              <div className="text-4xl font-extrabold text-emerald-600 mb-2">{service.value}</div>
+              <p className="text-gray-600 font-medium">{service.label}</p>
             </motion.div>
           ))}
         </div>
